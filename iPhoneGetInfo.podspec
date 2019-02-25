@@ -7,8 +7,8 @@ s.homepage     = "https://akashark.github.io/"
 s.license          = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "Sharker" => "aaksharker@gmail.com" }
 s.platform     = :ios, "8.0"
-s.source       = { :git => "https://github.com/AkaShark/iPhoneGetInfo", :tag => "1.0" }
-s.source_files = "iPhoneGetInfo/Classes/*"
+s.source       = { :git => "https://github.com/AkaShark/iPhoneGetInfo.git", :tag => "1.0" }
+s.source_files = "iPhoneGetInfo/iPhoneGetInfo/Classes/*"
 s.requires_arc = true
 
 # s.frameworks = "SomeFramework", "AnotherFramework"
