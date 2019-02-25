@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "iPhoneDeviceManager.h"
+
 @interface ViewController ()
 
 @end

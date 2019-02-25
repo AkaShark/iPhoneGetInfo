@@ -15,7 +15,7 @@
 		3B9A199422227EE7003ADCB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A199322227EE7003ADCB1 /* main.m */; };
 		3B9A199E22227EE8003ADCB1 /* iPhoneGetInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A199D22227EE8003ADCB1 /* iPhoneGetInfoTests.m */; };
 		3B9A19A922227EE8003ADCB1 /* iPhoneGetInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A19A822227EE8003ADCB1 /* iPhoneGetInfoUITests.m */; };
-		3B9A19B82222AA16003ADCB1 /* iPhoneDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A19B72222AA16003ADCB1 /* iPhoneDeviceManager.m */; };
+		3BA085772223B10900567F1B /* iPhoneDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA085762223B10900567F1B /* iPhoneDeviceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		3B9A19A422227EE8003ADCB1 /* iPhoneGetInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneGetInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9A19A822227EE8003ADCB1 /* iPhoneGetInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneGetInfoUITests.m; sourceTree = "<group>"; };
 		3B9A19AA22227EE8003ADCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B9A19B62222AA16003ADCB1 /* iPhoneDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneDeviceManager.h; sourceTree = "<group>"; };
-		3B9A19B72222AA16003ADCB1 /* iPhoneDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneDeviceManager.m; sourceTree = "<group>"; };
+		3BA085752223B10900567F1B /* iPhoneDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneDeviceManager.h; sourceTree = "<group>"; };
+		3BA085762223B10900567F1B /* iPhoneDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneDeviceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		3B9A197822227EE6003ADCB1 = {
 			isa = PBXGroup;
 			children = (
+				3BA085742223B10900567F1B /* Classes */,
 				3B9A198322227EE6003ADCB1 /* iPhoneGetInfo */,
 				3B9A199C22227EE8003ADCB1 /* iPhoneGetInfoTests */,
 				3B9A19A722227EE8003ADCB1 /* iPhoneGetInfoUITests */,
@@ -108,8 +109,6 @@
 				3B9A198522227EE6003ADCB1 /* AppDelegate.m */,
 				3B9A198722227EE6003ADCB1 /* ViewController.h */,
 				3B9A198822227EE6003ADCB1 /* ViewController.m */,
-				3B9A19B62222AA16003ADCB1 /* iPhoneDeviceManager.h */,
-				3B9A19B72222AA16003ADCB1 /* iPhoneDeviceManager.m */,
 				3B9A198A22227EE6003ADCB1 /* Main.storyboard */,
 				3B9A198D22227EE7003ADCB1 /* Assets.xcassets */,
 				3B9A198F22227EE7003ADCB1 /* LaunchScreen.storyboard */,
@@ -135,6 +134,16 @@
 				3B9A19AA22227EE8003ADCB1 /* Info.plist */,
 			);
 			path = iPhoneGetInfoUITests;
+			sourceTree = "<group>";
+		};
+		3BA085742223B10900567F1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BA085752223B10900567F1B /* iPhoneDeviceManager.h */,
+				3BA085762223B10900567F1B /* iPhoneDeviceManager.m */,
+			);
+			name = Classes;
+			path = iPhoneGetInfo/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +278,7 @@
 			files = (
 				3B9A198922227EE6003ADCB1 /* ViewController.m in Sources */,
 				3B9A199422227EE7003ADCB1 /* main.m in Sources */,
-				3B9A19B82222AA16003ADCB1 /* iPhoneDeviceManager.m in Sources */,
+				3BA085772223B10900567F1B /* iPhoneDeviceManager.m in Sources */,
 				3B9A198622227EE6003ADCB1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
